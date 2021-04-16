@@ -1,0 +1,18 @@
+Example 1:
+Rome is not built in a day.
+Here there are no repeated words. So 
+unigrams --> not,  in, day, is, a, built, Rome
+bigrams --> Rome is, is not, not built, built in, in a, a day.
+trigrams --> Rome is not, is not built, not built in, built in a, in a day.
+
+here as there is no repetetion of words, 
+number of unigrams > number of bigrams > number of trigrams.
+
+Example 2:
+horse is a horse, of course, of course. accept  it
+Here there are repeated words
+unigrams --> horse, of, course, a, is, it, accept
+bigrams --> horse is, is a , a horse, horse of, of course, course of, course accept, accept it
+trigrams --> horse is a, is a horse, a horse of, horse of course, of course of, course of course, of course accept, course accept it
+Here there is repetetion of words in the given sentence. Hence
+number of unigrams < number of bigrams < number of trigrams.
