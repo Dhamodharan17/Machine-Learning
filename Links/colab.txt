@@ -1,0 +1,10 @@
+Hello Team I have downloaded google model bu this method
+1. For download
+!wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
+2. For extraction
+!7z e GoogleNews-vectors-negative300.bin.gz
+3. Google model
+
+# from gensim.models import KeyedVectors
+# w2v_model_google=KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+Don't need download anything run it in Google Colab
